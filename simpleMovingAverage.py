@@ -3,7 +3,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 #data preparation
-data=pd.read_csv('C:/Users/Mohit K/Desktop/datasets/TATA.csv')
+data=pd.read_csv('.../TATA.csv')
 dataname=pd.DataFrame(data)
 
 dataname['Date']=pd.to_datetime(dataname['Date'])
